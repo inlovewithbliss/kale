@@ -33,14 +33,14 @@ $kale_posts_posts_nav_show = kale_get_option('kale_posts_posts_nav_show');
         <!-- Post Content -->
         <div id="post-<?php the_ID(); ?>" <?php post_class('entry entry-post'); ?>>
             
+        <?php if($kale_posts_meta_show == 1 && $kale_posts_date_show == 1) { ?>
             <div class="entry-header">
-				<?php if($kale_posts_meta_show == 1 && $kale_posts_date_show == 1) { ?>
                 <div class="entry-meta">
                     <div class="entry-date date updated"><?php the_date(); ?></div>
                 </div>
-				<?php } ?>
-				<div class="clearfix"></div>
+                <div class="clearfix"></div>
             </div>
+        <?php } ?>
             
             <?php $title = get_the_title(); ?>
             <?php if($title == '') { ?>
