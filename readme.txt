@@ -1,3 +1,6 @@
+
+**note: This is a forked version of the original! There are 2 branches, master (original) and inlovewithbliss/prod (modified)**
+
 === Kale ===
 
 Author: LyraThemes www.lyrathemes.com
