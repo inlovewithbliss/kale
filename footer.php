@@ -24,12 +24,6 @@
             <div class="footer-copyright"><?php echo wp_kses_post($kale_footer_copyright); ?></div>
             <?php } ?>
             
-            <div class="footer-copyright">
-                <ul class="credit">
-                    <li><a href="https://www.lyrathemes.com/kale/"><?php esc_html_e('Kale', 'kale'); ?></a> <?php esc_html_e('by LyraThemes.com', 'kale'); ?></a>.</li>
-                </ul>
-            </div>
-            
         </div>
         <!-- /Footer -->
         
