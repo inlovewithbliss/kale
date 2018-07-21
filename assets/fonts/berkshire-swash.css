@@ -2,5 +2,5 @@
   font-family: 'Berkshire Swash';
   font-style: normal;
   font-weight: 400;
-  src: local('Berkshire Swash Regular'), local('BerkshireSwash-Regular'), url(/wp-content/themes/kale/assets/berkshire-swash.ttf) format('truetype');
+  src: local('Berkshire Swash Regular'), local('BerkshireSwash-Regular'), url(/wp-content/themes/kale/assets/fonts/berkshire-swash.ttf) format('truetype');
 }
